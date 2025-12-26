@@ -13,3 +13,11 @@ DROP TABLE IF EXISTS Best_Actress CASCADE;
 DROP TABLE IF EXISTS Best_Original_Song CASCADE;
 DROP TABLE IF EXISTS Best_Director CASCADE;
 DROP TABLE IF EXISTS Best_Picture CASCADE;
+
+
+create table Best_Original_Song (
+    Year INT primary key,
+    Title VARCHAR(255),
+    Movie VARCHAR(255),
+    Composer VARCHAR(255)
+);
